@@ -10,11 +10,13 @@ This is a blog that goes through our developement journey of our 3rd Year Projec
 
 ### Stage 1
 
-This is our earliest stage of development. During this period we decided on what our major objectives would be in terms of features and functionality. At this point we also agreed on how to split up the workload. Myself (Razvan) would create the frontend features and user interface and Sam would create the backend functionality, mainly through parsing necessary data as json to the Django backend. Then through the use of a Django REST API, custom endpoints would allow us to integrate the frontend with the backend. At this stage our biggest obstacles to overcome would be to figure out how to display the trail data and where we could get that kind of data to begin with. We concluded that we should both go off on our own and conduct some research to discover potential solutions.
+This is our earliest stage of development. During this period we decided on what our major objectives would be in terms of features and functionality. At this point we also agreed on how to split up the workload. I (Razvan) would create the frontend features / user interface and Sam would create the backend functionality, mainly through parsing necessary json data. Then through the use of a Django REST API, custom endpoints would allow us to integrate the frontend with the backend. At this stage our biggest obstacles to overcome would be to figure out how to display the trail data and where we could get that kind of data to begin with. We concluded that we should both go off on our own, to conduct research and discover potential solutions.
 
 ---
 
 ### Stage 2
+
+We have made substantial progress, I have discovered a library for React that allows the creation interactive maps, called React Leaflet. Sam also managed to find trail data from Sport Ireland. Sam managed to parse this data. He next task would be to create speciifc endpoints with the Django REST Framework to allow me to start mapping the trails onto the react leaflet map. I have also decided to use OpenStreetMap for the tile layer. This would also simplify the creation of the map onto the webpage since I could import default styling, all provided by OpenStreetMap. My next task would be to figure out how to place markers onto the react leaflet map and what trail data is needed to make that possible. The would be a major step as it would open up the possibility of rendering marker for points of interest and the trails themselves. 
 
 ---
 
