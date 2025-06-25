@@ -1,3 +1,3 @@
 ## Description ##
 
-This is my own personal portfolio webpage. `https://razvan-gorea.github.io/my-website/`
+This is my own personal portfolio webpage. `https://razvan-gorea.github.io/`
